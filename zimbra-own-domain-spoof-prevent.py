@@ -8,8 +8,6 @@
 # - Add to crontab for periodic checks
 
 import sys
-import argparse
-from argparse import RawTextHelpFormatter
 from subprocess import Popen, PIPE, call
 
 def run(command):
